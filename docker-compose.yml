@@ -1,0 +1,9 @@
+version: '3'
+services:
+  draussen-ortung:
+    build: .
+    networks:
+      - kafka-broker_backend
+networks:
+  kafka-broker_backend:
+    external: true
