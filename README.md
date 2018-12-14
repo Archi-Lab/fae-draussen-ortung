@@ -1,7 +1,11 @@
 # fae-draussen-ortung
 
 
-##Install and Run
+## Function
+![alt text][]
+
+## Install and Run
+
 Um den Service zu starten und mit kafka zu verbinden muss zu erst das Projekt mit maven geaubt werden.
 Hierzu benötigt man den folgenden Befehl: 
 ```bash
