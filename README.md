@@ -26,7 +26,7 @@ Solange der Service nicht beendet wird laufen die Tracker weiter und wiederrhole
 
 ## Configuration
 In der Konfigurationsdatei ``application.properties`` kann zusätzlich die Rate der Event erhöht oder verrinter werden.
-Hierzu muss die Wert von ``tracker.publishRate`` geändert werden. 
+Hierzu muss der Wert von ``tracker.publishRate`` geändert werden. 
 Dieser wird in Millisekunden angeben und ist Standardmäßig auf 5000ms eingestellt.
 
 ## Run
