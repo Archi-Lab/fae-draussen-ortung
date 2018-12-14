@@ -30,12 +30,15 @@ public class ScheduledGPSPublisher {
 
   private static ArrayList<Tracker> trackers;
 
+
   @Autowired
-  ScheduledGPSPublisher(final KafkaGateway eventPublisher)
+  ScheduledGPSPublisher(@Value("${tracker.path}") final String pathToFolder, final KafkaGateway eventPublisher)
   {
+    log.info("Search for GPS-Data in \"{}\"",pathToFolder);
+
     this.eventPublisher = eventPublisher;
 
-    gPSDataFolder = new File("src/main/resources/static/GPSData");
+    gPSDataFolder = new File(pathToFolder);
     trackerFolders = gPSDataFolder.listFiles(File::isDirectory);
 
     trackers = Arrays.stream(trackerFolders).collect(() -> new ArrayList<>(), (c,e) -> c.add(new Tracker(e)), (c1,c2) -> c2.addAll(c1));
