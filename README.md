@@ -3,7 +3,7 @@
 #### Table of Content
 
 * [Function](#Function)
-* [Install and Run](#Install and Run)
+* [Install and Run](#Install&Run)
 
 ## Function
 Der Service simuliert die reale Ortung einer DVP. Hierzu laufen 3 Tracker verschiedene Routen ab.
@@ -23,7 +23,7 @@ Solange der Service nicht beendet wird laufen die Tracker weiter und wiederrhole
 ![alt text](https://github.com/Archi-Lab/fae-draussen-ortung/blob/master/assests/route_3.png)
 
 
-## Install and Run
+## Install&Run
 
 Um den Service zu starten und mit kafka zu verbinden muss zu erst das Projekt mit maven geaubt werden.
 Hierzu benötigt man den folgenden Befehl: 
