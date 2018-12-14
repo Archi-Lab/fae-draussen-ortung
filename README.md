@@ -2,8 +2,20 @@
 
 
 ## Function
+Der Service simuliert die reale Ortung einer DVP. Hierzu laufen 3 Tracker verschiedene Routen ab.
+Ein Tracker ist ein Ortungsgerät, das einer DVP zugeordnet ist. Jeder Tracker wählt zufällig aus 3 Routen. 
+Die Bewegungsdaten werden alle 5000ms als Event auf dem Message Broker veröffentlicht.
+In den folgenden Abbildungen sind die Tracker mit ihren Routen veranschaulicht. 
+
+Solange der Service nicht beendet wird laufen die Tracker weiter und wiederrholen die verschiedenen Routen.
+
+### Tracker 1 
 ![alt text](https://github.com/Archi-Lab/fae-draussen-ortung/blob/master/assests/route_1.png)
+
+### Tracker 2
 ![alt text](https://github.com/Archi-Lab/fae-draussen-ortung/blob/master/assests/route_2.png)
+
+### Tracker 3
 ![alt text](https://github.com/Archi-Lab/fae-draussen-ortung/blob/master/assests/route_3.png)
 
 
