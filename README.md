@@ -1,5 +1,9 @@
 # fae-draussen-ortung
 
+#### Table of Content
+
+* [Function](#Function)
+* [Install and Run](#Install and Run)
 
 ## Function
 Der Service simuliert die reale Ortung einer DVP. Hierzu laufen 3 Tracker verschiedene Routen ab.
