@@ -5,5 +5,5 @@ services:
     networks:
       - fae-message-broker_backend
 networks:
-  kafka-broker_backend:
+  fae-message-broker_backend:
     external: true
